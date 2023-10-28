@@ -55,6 +55,7 @@ class MainActivity : ComponentActivity() {
                             backgroundColor = Color.DarkGray,
                             textColor = Color.White,
                             fontSize = 17,
+                            content = "This is a notification",
                         )
                         Column(
                             horizontalAlignment = Alignment.CenterHorizontally,

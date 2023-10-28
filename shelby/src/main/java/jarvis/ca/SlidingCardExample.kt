@@ -33,7 +33,8 @@ fun SlidingCardExample(
     displayTime: DisplayTime = DisplayTime.Medium,
     backgroundColor: Color = Color.White,
     textColor: Color = Color.Black,
-    fontSize: Int = 15
+    fontSize: Int = 15,
+    content: String,
 ) {
     val offsetY by animateDpAsState(
         targetValue = if (isVisible) 0.dp else -200.dp,
@@ -66,7 +67,7 @@ fun SlidingCardExample(
                 colors = CardDefaults.cardColors(backgroundColor)
             ) {
                 Text(
-                    text = "I'm a sliding card!",
+                    text = content,
                     modifier = Modifier.padding(16.dp),
                     color = textColor,
                     style = TextStyle(
