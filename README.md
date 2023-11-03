@@ -3,7 +3,7 @@
 Welcome to the repository of `Mustang Shelby`, a lightweight and easy-to-use library for Android developers using Kotlin and Jetpack Compose to add animated sliding cards to their UI. Effortlessly integrate animated visibility with customizable text content, color schemes, and display times.
 
 ## Version
-[![](https://jitpack.io/v/gilsonjuniorpro/Jarvis.svg)](https://jitpack.io/#gilsonjuniorpro/mustang)
+[![](https://jitpack.io/v/gilsonjuniorpro/mustang.svg)](https://jitpack.io/#gilsonjuniorpro/mustang)
 
 ## Features
 
