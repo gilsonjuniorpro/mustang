@@ -53,7 +53,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.gilsonjuniorpro"
             artifactId = "shelby"
-            version = "0.0.4"
+            version = "0.0.5"
 
             afterEvaluate {
                 from(components["release"])
