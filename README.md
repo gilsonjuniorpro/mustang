@@ -35,7 +35,7 @@ Add the following line to your module-level build.gradle file:
 
 ```
 dependencies {
-    implementation 'com.github.gilsonjuniorpro:jarvis.ca:version_here'
+    implementation 'com.github.gilsonjuniorpro:mustang:version_here'
 }
 ```
 
@@ -53,7 +53,7 @@ fun YourComposableScreen() {
         backgroundColor = Color.White,
         textColor = Color.Black,
         fontSize = 15,
-        content = "Hello, I'm a Jarvis CA card!"
+        content = "Hello, I'm a Shelby CA card!"
     )
 }
 ```
